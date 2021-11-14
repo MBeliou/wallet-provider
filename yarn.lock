@@ -11193,6 +11193,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"isomorphic-ws@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "isomorphic-ws@npm:4.0.1"
+  peerDependencies:
+    ws: "*"
+  checksum: d7190eadefdc28bdb93d67b5f0c603385aaf87724fa2974abb382ac1ec9756ed2cfb27065cbe76122879c2d452e2982bc4314317f3d6c737ddda6c047328771a
+  languageName: node
+  linkType: hard
+
 "istanbul-lib-coverage@npm:^3.0.0":
   version: 3.0.0
   resolution: "istanbul-lib-coverage@npm:3.0.0"
@@ -17079,9 +17088,11 @@ resolve@^2.0.0-next.3:
     "@ssen/prettier-config": ^2.0.1
     eslint: ^8.2.0
     husky: ^7.0.4
+    isomorphic-ws: ^4.0.1
     jest: ^27.3.1
     lint-staged: ^11.2.6
     prettier: ^2.4.1
+    ws: ^8.2.3
   languageName: unknown
   linkType: soft
 
@@ -20344,7 +20355,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ws@npm:8.2.3":
+"ws@npm:8.2.3, ws@npm:^8.2.3":
   version: 8.2.3
   resolution: "ws@npm:8.2.3"
   peerDependencies:

@@ -14,10 +14,12 @@ import {
 } from '@walletconnect/utils';
 
 import NetworkMonitor from './network';
+import {default as ws} from "isomorphic-ws"
 
 // @ts-ignore
-const WS =
-  typeof global.WebSocket !== 'undefined' ? global.WebSocket : require('ws');
+const WS =   typeof global.WebSocket !== 'undefined' ? global.WebSocket : ws;
+
+//  typeof global.WebSocket !== 'undefined' ? global.WebSocket : require('ws');
 
 // -- SocketTransport ------------------------------------------------------ //
 
